@@ -1,0 +1,32 @@
+Como criar aplicação React
+
+#Instalar typescript
+npm i typescript -D
+
+# No terminal, no diretório da pasta do projeto
+npx create-react-app . --template typescript
+
+# Para iniciar o React
+npm start
+
+# Adicionar essas devDependencies no package.json
+"devDependencies": {
+    "eslint-plugin-react": "7.32.2",
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.7"
+  },
+
+# Copiar os arquivos para a pasta do projeto:
+.eslintrc.js
+.eslintrc.js
+.editorconfig
+.vscode (pasta)
+
+# Adicionar o no arquivo.eslitrc.sj, em extends a linha:
+'plugin:react/recommended',
+
+# Atualizar as instalções feitas
+npm i
